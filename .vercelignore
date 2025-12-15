@@ -1,0 +1,8 @@
+server/
+script/
+storage/
+dist/**/*.map
+**/*.ts
+**/*.tsx
+node_modules/
+README.md
