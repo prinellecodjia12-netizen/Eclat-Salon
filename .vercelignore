@@ -1,8 +1,8 @@
 server/
-script/
 storage/
 dist/**/*.map
-**/*.ts
-**/*.tsx
 node_modules/
 README.md
+
+# Keep `script/` (build script) and TypeScript sources so Vercel can run `npm run build`
+# Ignoring TS/TSX files prevented the build step from finding `script/build.ts` and client sources.
